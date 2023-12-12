@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 import '/public/fonts.css'
 import React from 'react'
 import { AppProps } from 'next/app'
-const GlobalStyle = dynamic(() => import('./GlobalStyle'))
+const GlobalStyle = dynamic(() => import('../style/GlobalStyle'))
 
 const App = ({ Component }: AppProps<any>) => {
 	return (
