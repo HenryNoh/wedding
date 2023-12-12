@@ -51,8 +51,6 @@ export const Top = styled.div`
 		position: relative;
 		top: -50px;
 		left: 50%;
-		width: 192px;
-		height: 130px;
 	}
 `
 export const Desc = styled.div`
